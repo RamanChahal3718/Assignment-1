@@ -6,6 +6,7 @@
    <meta http-equiv="X UA-Compatible" content="IE=edge">
   <meta name="viewport" content=" width-device-width,initial-scale=1.0">
   <title>Contact</title>
+  <link rel="icon" href="/Assets/Personal-logo.jpg" type="image/icon type">
   <!-- CSS Selection-->
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="Stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
@@ -44,7 +45,35 @@
   </header>
 
   <!--main content-->
-  <main></main>
+  <main>
+    <div class="container" id="contact-form">
+      <h1>Contact Form</h1>
+       <form class="container ms-4" id="form">
+           <div class="col-6">
+               <label for="fName">First Name</label>
+               <input type="text" placeholder="First Name" id="fName" required>
+           </div>
+   
+           <div class="col-6">
+               <label for="lName">Last Name</label>
+               <input type="text" placeholder="Last Name" id="lName" required>
+           </div>
+   
+           <div class="col-6">
+               <label for="email">E-Mail</label>
+               <input type="email" required placeholder="Enter E-mail" id="fName">
+           </div>
+           <div class="col-6">
+               <label for="textarea">Your Message</label>
+               <textarea id="textarea" name="textarea" rows="3" cols="30" required></textarea>
+           </div>
+           <div class="col-6">
+               <button id="contact-submit">Submit</button>
+           </div>
+   
+       </form>
+   </div>
+  </main>
   
 
   <!--Main Footer Content-->
@@ -53,7 +82,6 @@
   <!-- javascript section-->
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src ="./Scripts/contact.js"></script>
   <script src="./Scripts/app.js"></script>
 
 </body>

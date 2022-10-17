@@ -3,9 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-   <meta http-equiv="X UA-Compatible" content="IE=edge">
+  <meta http-equiv="X UA-Compatible" content="IE=edge">
   <meta name="viewport" content=" width-device-width,initial-scale=1.0">
   <title>Home</title>
+  <link rel="icon" href="/Assets/Personal-logo.jpg" type="image/icon type">
   <!-- CSS Selection-->
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="Stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
@@ -19,16 +20,17 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="Home.html">Assignment-1</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" id="About" href="About.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="Contact"  href="Contact.html">Conatct Us</a>
+              <a class="nav-link" id="Contact" href="Contact.html">Conatct Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " id="Projects" href="Projects.html">Projects</a>
@@ -37,7 +39,7 @@
               <a class="nav-link" id="Services" href="Services.html">Services</a>
             </li>
           </ul>
-          
+
         </div>
       </div>
     </nav>
@@ -45,12 +47,30 @@
 
   <!--main content-->
   <main>
-    <h1>Welcome To Our Site</h1>
-    <p>We will help you get started!</p>
-    <h3>Our Mission</h3>
-    <p class="description">We are Designing company helping our clients to create Graphic Designs and mockups for their site. With our Digital Marketing team we will help you to reach the people you want.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-12" id="heading">
+          <h1>Welcome To Our Site</h1>
+          <p>We will help you get started!</p>
+        </div>
+        <div class="col-6">
+          <h3>Our Mission</h3>
+          <p>We aspire to be a globally reputed website development and Web Solutions IT Company in the world that
+            leverages technology to deliver customized and cost-effective services. We believe to do work with the focus
+            on emerging technologies and fulfilling clients’ requirements to have long term partnerships through mutual
+            trust and loyalty.”</p>
+        </div>
+        <div class="col-6">
+          <h3>Our History</h3>
+          <p> We came into existence in 2012 when a group of stuents gradutated from college thought to begin a
+            strat-up. The group of five Full-Stack developers begin their company from their home. Today the company has
+            grown to a level that it has more than 100 employees working all over different parts of the world providing
+            best services to the cleints</p>
+        </div>
+      </div>
+    </div>
   </main>
-  
+
 
   <!--Main Footer Content-->
   <footer></footer>
@@ -58,7 +78,6 @@
   <!-- javascript section-->
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src ="./Scripts/contact.js"></script>
   <script src="./Scripts/app.js"></script>
 
 </body>
